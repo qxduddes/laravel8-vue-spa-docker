@@ -6,7 +6,7 @@
 4. Open the Docker Environment Variable file /laravel8-vue-spa-docker/.env and configure your docker container. (Optional)
 ```
 # Container Name
-CONTAINER_NAME=laravel-vue-cli
+CONTAINER_NAME=laravel-vue-spa
 
 # Application
 API_NAME=api
@@ -14,7 +14,7 @@ VUE_APP_NAME=vue-app
 
 # Database Connection
 DB_PORT=3306
-DB_DATABASE=dsg
+DB_DATABASE=laravue
 DB_USERNAME=root
 DB_PASSWORD=secret
 DB_PORT=3306

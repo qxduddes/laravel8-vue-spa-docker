@@ -1,9 +1,9 @@
 # Laravel 8 / Vue SPA Local Development Environment with Docker Compose
 
 1. Install docker for M1 (https://docs.docker.com/desktop/mac/apple-silicon)
-2. Clone laravel8-vu-docker to your local computer
+2. Clone laravel8-vue-spa-docker to your local computer
 3. Clone and install your app inside /laravel8-vue-docker/src folder
-4. Open the Docker Environment Variable file /laravel8-vue-docker/.env and configure your docker container. (Optional)
+4. Open the Docker Environment Variable file /laravel8-vue-spa-docker/.env and configure your docker container. (Optional)
 ```
 # Container Name
 CONTAINER_NAME=laravel-vue-cli

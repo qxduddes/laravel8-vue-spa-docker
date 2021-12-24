@@ -43,11 +43,11 @@ DB_DATABASE=app
 DB_USERNAME=root
 DB_PASSWORD=secret
 ```
-6. Run docker-compose build (to build your laravel docker development environment)
-7. Run docker-compose up -d (start docker container)
-8. Go to src/api folder and run docker-compose run composer install (to install the laravel dependency packages)
-9. Run docker-compose run artisan migrate --seed (migrate the database)
-10. Go to src/vue-app and run docker-compose run npm install (install the vue dependecy packages)
+6. Run `docker-compose build` (to build your laravel docker development environment)
+7. Run `docker-compose up -d` (start docker container)
+8. Go to src/api folder and run `docker-compose run composer install` (to install the laravel dependency packages)
+9. Run `docker-compose run artisan migrate --seed` (migrate the database)
+10. Go to src/vue-app and run `docker-compose run npm install` (install the vue dependecy packages)
 
 ## Terminal Commands:
 
